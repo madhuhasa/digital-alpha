@@ -1,0 +1,157 @@
+FOURTH PROGRAM : 
+members = "Alex, 20 ; sam, 22 ; clari, 24 ; john, 21 ; ester, 59 ; " \
+          "Jim, 09 ; Gopi, 67 ; Kim, 39; Rob, 18 ; Rina, 19 ;"  \
+          "Lux, 49 ; Reena, 37 ; Watson, 54 ; Elena, 28 ; Reshma, 34 ;" \
+          "Tom, 28 ; Heena, 46 ; Peter, 31 ; Gaur, 35 ; Tim, 70 ."
+print(members)
+C = " Child - Jim 09 "
+Y = " Youth - Alex 20 ; Sam 22 ; Clari 24 ; John 21 ; Rob 18 ; Rina 19 ; Elena 28 ; Tom 28"
+M = " MiddleAged - Kim 39 ; Reena 37 ; Reshma 34 ; Heena 46 ; Peter 31 ; Gaur 35"
+S = " Senior -  Tim 70 ; Watson 54 ; Lux 49 ; Ester 59"
+print(C)
+print(Y)
+print(M)
+print(S)
+
+#select = input("Select one of the below ages"
+              # "Child , Youth , MiddleAged , Senior")
+#print(select)
+#age = str(input())
+#if age == "Child":
+  #  print(" Jim 09 ")
+#elif age == "Youth":
+ #   print(Y)
+#elif age == "MiddleAged":
+#    print(M)
+#else:
+   # print(S) 
+
+
+OUTPUT : 
+
+
+
+C:\Users\user\PycharmProjects\EXAM\venv\Scripts\python.exe C:/Users/user/PycharmProjects/EXAM/fourth.py
+Alex, 20 ; sam, 22 ; clari, 24 ; john, 21 ; ester, 59 ; Jim, 09 ; Gopi, 67 ; Kim, 39; Rob, 18 ; Rina, 19 ;Lux, 49 ; Reena, 37 ; Watson, 54 ; Elena, 28 ; Reshma, 34 ;Tom, 28 ; Heena, 46 ; Peter, 31 ; Gaur, 35 ; Tim, 70 .
+ Child - Jim 09 
+ Youth - Alex 20 ; Sam 22 ; Clari 24 ; John 21 ; Rob 18 ; Rina 19 ; Elena 28 ; Tom 28
+ MiddleAged - Kim 39 ; Reena 37 ; Reshma 34 ; Heena 46 ; Peter 31 ; Gaur 35
+ Senior -  Tim 70 ; Watson 54 ; Lux 49 ; Ester 59
+
+Process finished with exit code 0
+
+
+
+FIFTH PROGRAM : 
+
+cans = "11.95, 11.91, 11.86, 11.94, 12.00, 11.93, 12.00, 11.94" \
+       "12.10, 11.95, 11.99, 11.89, 11.94, 12.01, 11.99, 11.94"
+print(cans)
+a1 = 11.95
+a2 = 11.91
+a3 = 11.86
+a4 = 11.94
+a5 = 12.00
+a6 = 11.93
+a7 = 12.00
+a8 = 11.94
+a9 = 12.10
+a10 = 11.95
+a11 = 11.99
+a12 = 11.89
+a13 = 11.94
+a14 = 12.01
+a15 = 11.99
+a16 = 11.94
+add = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 + a10 + a11 + a12 + a13 + a14 + a15 + a16
+print(add)
+mean = add / 16
+print(mean)
+median = (11.94 + 11.95) / 2
+print(median)
+mode = 11.94
+print(mode)
+
+
+
+OUTPUT : 
+
+C:\Users\user\PycharmProjects\EXAM\venv\Scripts\python.exe C:/Users/user/PycharmProjects/EXAM/fifth.py
+11.95, 11.91, 11.86, 11.94, 12.00, 11.93, 12.00, 11.9412.10, 11.95, 11.99, 11.89, 11.94, 12.01, 11.99, 11.94
+191.33999999999997
+11.958749999999998
+11.945
+11.94
+
+Process finished with exit code 0
+
+
+
+THIRD PROGRAM : 
+
+def Merge(left,right,A):
+ i=j=k=0
+
+ while(i < len(left) and j < len(right)):
+  if(left[i] < right[j]):
+   A[k]=left[i]
+   i+=1
+
+  else:
+   A[k]=right[j]
+   j+=1
+
+  k+=1
+
+ while(i < len(left)):
+  A[k]=left[i]
+  i+=1
+  k+=1
+
+ while(j < len(right)):
+  A[k]=right[j]
+  j+=1
+  k+=1
+
+
+def MergeSort(A):
+ left = []
+ right = []
+ n = len(A)
+ if(n<2):
+  return
+ mid = n/2
+ for i in range(mid):
+  left.append(A[i])
+ for i in range(mid,n):
+  right.append(A[i])
+ 
+ MergeSort(left)
+ MergeSort(right)
+ Merge(left,right,A)
+
+
+A = [12,6,48,37,88,31,54,11,60,122,105,88,122,155,105] #given unsorted array
+MergeSort(A)
+print A
+
+
+
+
+OUTPUT : 
+
+
+C:\Users\user\PycharmProjects\EXAM\venv\Scripts\python.exe C:/Users/user/PycharmProjects/EXAM/third.py 
+6, 11, 12, 31, 37, 48, 54, 60, 88, 88, 105, 105, 122, 122, 155
+
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
