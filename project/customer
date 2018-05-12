@@ -1,0 +1,33 @@
+import pickle
+import pandas as pd
+
+bestList = pickle.load(open("C:\\Users\\user\\Desktop\\4yrsBMW.p", "rb"))
+recommendedList = pickle.load(open("C:\\Users\\user\\Desktop\\Product_Recommendation.p","rb"))
+
+data = pd.read_excel('C:\\Users\\user\\Desktop\\newdataset.xlsx')
+
+pn = []
+
+customers = data["Customer ID"].unique().tolist()
+for i in range(len(data)):
+    if data['Customer ID'][i] in customers :
+        pn.append(data['ProductName'][i]) 
+        
+pn1 = list(set(pn))
+bestList = bestList.iloc[:370,:]
+bestList = list(bestList['d_product'])
+
+S1 = set(pn1)
+S2 = set(bestList)
+S3 = list(S2.intersection(S1))
+
+unique_prod = list(data['ProductName'].unique())
+recommendations = []
+
+
+for i in range (len(S3)):
+    pos = unique_prod.index(S3[i])
+    df = recommendedList[pos]
+    recommendations.append(df.iloc[:5,[0]])
+    
+    
