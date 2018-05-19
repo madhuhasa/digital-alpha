@@ -1,0 +1,53 @@
+Dynamic Pricing:
+     Dynamic Pricing gives ecommerce retailers the right data and information that can be used to set optimal discount to the  product  and stay profitable despite the price fluctuations.
+     Logistic Regression  used to tell the retailer whether to give discount to the product or not based on various aspects of the product.
+     
+
+
+     the opportunities machine learning present for marketers are virtually unlimited. Here are some of them:
+	Unlimited Data:
+
+Machine learning can gather data from a virtually unlimited number of sources. 
+With this, you can adjust your brand’s message based on the most recent consumer behaviors. 
+This allows you to automate and personalize certain marketing processes by letting your machine learning tools make decisions on content, 
+call-to-actions, and even design, in real-time.
+
+Customer Segmentation:
+Customer segmentation is extremely important but also a full-time job in itself.
+ Machine learning can be used to identify various segments of your target market as well as create micro-segments based on behavioral patterns 
+you may not be able to spot. This data can help you create a predictive approach to your customer segmentation, allowing you to lead each customer
+ individually through his or her buyer journey.
+
+Customer Lifetime Value:
+Your customer lifetime value is calculated based on their demographic, purchasing history, their interactions with your marketing campaigns,
+ as well as the actions they take on your platform, among other factors. Machine learning calculates your customer 
+lifetime value more accurately thus allowing you to optimize your future interactions with them accordingly.
+
+
+
+
+CUSTOMER SEGEMENTATION : OBJECTIVES , WHAT, HOW 
+
+why?
+Marketing efficiency – Breaking down a large customer base into more manageable pieces, 
+making it easier to identify your target audience and launch campaigns to the most relevant people, using the most relevant channel.
+
+Determine new market opportunities – During the process of grouping your customers into clusters, 
+you may find that you have identified a new market segment, which could in turn alter your marketing focus and strategy to fit.
+
+Better brand strategy – Once you have identified the key motivators for your customer, such as design or price or practical needs,
+ you can brand your products appropriately.
+
+Improve distribution strategies – Identifying where customers shop and when can informatively shape product distributions strategies,
+ such as what type of products are sold at particular outlets.
+
+Customer retention – Using segmentation, marketers can identify groups that require extra attention and those that churn quick,
+ along with customers with the highest potential value. It can also help with creating targeted strategies that capture your customers’ 
+attention and create positive, high-value experiences with your brands.
+
+
+PRICING : WHY, WHAT, HOW
+
+
+RECOMMENDATIONS : WHY, WHAT, HOW
+
